@@ -48,9 +48,9 @@ body {
   display: flex;
   align-items: center;
   padding: 1rem;
-  padding-top: 6.9rem;
   gap: 2rem;
   background-color: rgb(217, 227, 231);
+  min-height: 93vh;
 }
 .first h1 {
   font-size: 3rem;
@@ -213,9 +213,6 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .navbar {
-    padding: 1.5rem;
-  }
   .cards {
     gap: 5rem;
   }
@@ -224,6 +221,7 @@ body {
   }
   .hero {
     flex-direction: column-reverse;
+    min-height: 95vh;
   }
   .first {
     text-align: center;
